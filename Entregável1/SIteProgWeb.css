@@ -1,0 +1,98 @@
+* {
+    margin: 0 0;
+    padding: 0 0;
+    box-sizing: border-box;
+    background-color: #f7f7f7;
+  }
+
+body {
+    color: #444;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    border-top: 10px solid #1098ad;
+    position: relative;
+}
+
+p {
+    margin: 10px 0px;
+    line-height: 1.5;
+}
+
+.conteudo {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+a:link, a:visited {
+  color: #444;
+}
+
+a:hover, a:active {
+  text-decoration: none;
+}
+
+nav a:link {
+    margin-right: 40px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.infos {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.main-header {
+    color: #1098ad;
+    padding: 20px 40px;
+    margin-bottom: 10px;
+    
+}
+
+.imagens {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.foto-coelho {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+}
+
+.lista-guilherme {
+    text-decoration: none;
+    margin-bottom: 5px;
+    list-style: none;
+}
+
+footer {
+    font-style: italic;
+}
+
+.text, #texto-coelho {
+    margin-bottom: 30px;
+}
+
+.coelho {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.texto-coelho {
+    margin-top: 0;
+    flex-direction: column;
+    padding-right: 90px;
+    margin-bottom: 50px;
+}
